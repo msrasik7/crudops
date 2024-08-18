@@ -7,6 +7,6 @@ function handleLogin(event) {
     if (username === 'admin' && password === '123')
         window.location.href = 'crud.html';
       else
-        document.getElementById('error-message').innerText = 'Invalid username or password.';
+        document.getElementById('error-message').innerText = 'Invalid data';
 }
 
